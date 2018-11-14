@@ -1,0 +1,85 @@
+/* Text */
+img {border:0 none;}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Arial, Helvetica,sans-serif; 
+	margin:1.3em 0 0.7em;
+	font-weight:normal;
+	line-height:1.2;
+}
+
+h1 { font-size:190%; margin:0 0 1em; }
+h2 { font-size:150%; }
+h3 { font-size:130%; font-weight: bold;}
+h4 { font-size:120%;}
+h5 
+{ 
+	border-bottom:1px solid #E5E5E5;
+	font-size:140%;
+	font-weight:normal;
+	margin:0 0 1.1em;
+	padding:0 0 1em;
+}
+h6 { font-size:100%; }
+
+hr, .hr 
+{
+	border-top:1px solid;
+	display:block;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+	margin:12px 0;
+	overflow:hidden;
+	padding:0;
+}
+
+#workarea ul { list-style-image: url('/images/gamin_16.png');  padding:0; margin: 0 0 0 1.5em;}
+#page-wrapper .img_home  .img_home_text  ul { list-style-image: url('/images/gamin_16.png');  padding:0; margin: 0 0 0 1.5em;}
+
+
+#workarea ul ul { padding:0 0 0 1.5em; margin: 0.6em 0}
+
+
+table.data-table { width: 100%; border-bottom: 1px solid #F0F0F0; border-top: 1px solid #F0F0F0}
+table.data-table th { text-align: left;}
+table.data-table td, table.data-table th { padding: 1em; font-size: 0.85em;}
+table.data-table tr.alt-row { background-color: #F0F0F0; }
+
+#workarea p {
+	text-indent: 1.5em;
+	margin:0px;
+}
+#workarea .galka_16 {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-image:url(/images/gamin_16.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+#workarea .services table, #workarea .price table {
+	border-collapse: collapse;
+}
+#workarea .services table th, #workarea .services table td, #workarea .price table th, #workarea .price table td {
+	padding:5px;
+	text-align:center;
+	border:solid 1px #cacaca;
+}
+#workarea .services table td:first-child, #workarea .price table td:first-child {
+	text-align:left;
+}
+#workarea img.left {
+	float:left;
+	margin:10px;
+}
+#workarea img.right {
+	float:right;
+	margin:10px;
+}
+#workarea .timin{
+	text-align:center;
+	font-size:110%;
+	font-weight: bold;
+}
